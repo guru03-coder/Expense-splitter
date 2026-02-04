@@ -4,13 +4,13 @@ import { CreateGroupScreen } from './screens/CreateGroupScreen';
 import { GroupDetailScreen } from './screens/GroupDetailScreen';
 import { AddExpenseScreen } from './screens/AddExpenseScreen';
 import { SettlementsScreen } from './screens/SettlementsScreen';
-import { LoginScreen } from './screens/auth/LoginScreen';
+
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<LoginScreen />} />
+
         <Route path="/" element={<HomeScreen />} />
         <Route path="/create-group" element={<CreateGroupScreen />} />
         <Route path="/group/:id" element={<GroupDetailScreen />} />
